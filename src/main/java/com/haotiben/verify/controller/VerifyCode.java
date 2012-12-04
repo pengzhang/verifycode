@@ -26,7 +26,7 @@ public class VerifyCode {
 	private static Map<String,Response> map = new HashMap<String,Response>();
 
 	@GET
-	@Path("/verifycode.json")
+	@Path("/verify/code.json")
 	@Produces(MediaType.TEXT_PLAIN)
 	public  String getVerifyCode() throws Exception{
 		
